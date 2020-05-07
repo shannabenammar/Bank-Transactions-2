@@ -1,12 +1,4 @@
-/*
- * Shanna Benammar
- * 
- * Final Exam part one
- * 
- * Professor Ziegler 
- * 
- */
-package FinalExamClasses;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -16,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Calendar;
 
-public class FinalExam {
+public class Bank {
 
 	public static void main(String[] args) throws IOException{
 		
