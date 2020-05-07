@@ -1,0 +1,145 @@
+		Accounts in the Database
+========================================
+| Account Number || Account Balance |
+========================================
+     233676         $100.00         
+========================================
+     456769         $50.26          
+========================================
+     234891         $1000.00        
+========================================
+     345767         $0.00           
+========================================
+     123487         $75.50          
+========================================
+     93421          $23.18          
+========================================
+     767544         $0.00           
+========================================
+========================================
+
+***RECEIPT***
+--------------------------------
+Transaction: Get Balance
+Date of transaction: Thu May 07 19:49:37 EDT 2020
+The Account Number is: 233676
+The Balance is: $100.0
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Get Balance
+Date of transaction:: Thu May 07 19:49:38 EDT 2020
+Error: an account with the number 887790 
+does not exist in our system
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Make Deposit
+Date of transaction:: Thu May 07 19:49:38 EDT 2020
+The account number is: 456769
+The old balance was: $50.26
+The amount to deposit was: $20.0
+The new balance is: $70.26
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Make Deposit
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+Error: an account with the number 898090 
+does not exist in our system
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Make Deposit
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+Error: -90.0 is a negative amount 
+which cannot be deposited into an account
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Make Withdrawal
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+The account number is: 234891
+The old balance was: $1000.0
+The amount to withdraw was: $50.0
+The new balance is : $950.0
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Make Withdrawal
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+Error: an account with the number 767849 
+does not exist in our system
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Make Withdrawal
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+Error: -30.0 is a negative amount 
+which cannot be deposited into an account
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Make Withdrawal
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+Error: 20000.0 is an amount which is
+more than the balance of the account
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Add Interest
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+The account number is: 123487
+The old balance was: $75.5
+The rate of interest is: 10.0%
+The amount to be credited is: $7.55
+The new balance is: $83.05
+--------------------------------
+
+
+***RECEIPT***
+--------------------------------
+Transaction: Add Interest
+Date of transaction: Thu May 07 19:49:38 EDT 2020
+Error: an account with the number 7684933 
+does not exist in our system
+--------------------------------
+
+		Accounts in the Database
+========================================
+| Account Number || Account Balance |
+========================================
+     233676         $100.00         
+========================================
+     456769         $70.26          
+========================================
+     234891         $950.00         
+========================================
+     345767         $0.00           
+========================================
+     123487         $83.05          
+========================================
+     93421          $23.18          
+========================================
+     767544         $0.00           
+========================================
+========================================
+
