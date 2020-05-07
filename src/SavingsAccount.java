@@ -1,14 +1,3 @@
-/*
- * Shanna Benammar
- * 
- * Final Exam part one
- * 
- * Professor Ziegler 
- * 
- */
-package FinalExamClasses;
-
-
 public class SavingsAccount extends BankAccount implements Interest{
 	
 	/*
