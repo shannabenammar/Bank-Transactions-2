@@ -1,6 +1,4 @@
 
-package FinalExamClasses;
-
 public class AccountNotFound extends Exception{
 	
 	/*
