@@ -1,13 +1,3 @@
-/*
- * Shanna Benammar
- * 
- * Final Exam part one
- * 
- * Professor Ziegler 
- * 
- */
-package FinalExamClasses;
-
 
 public abstract class BankAccount {
 	
