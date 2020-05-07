@@ -1,11 +1,4 @@
-/*
- * Shanna Benammar
- * 
- * Final Exam part one
- * 
- * Professor Ziegler 
- * 
- */
+
 package FinalExamClasses;
 
 public class AccountNotFound extends Exception{
